@@ -1,3 +1,32 @@
-body {
-    background-color: green;
+@use 'hero';
+@use 'event';
+@use 'variaveis';
+@use 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bungee", sans-serif;
+    color: variaveis.$corTexto;
+}
+
+body{
+    background-color: variaveis.$corFundo;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px){
+        max-width: 90%;
+
+    }
 }

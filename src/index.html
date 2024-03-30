@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <h1>OLA</h1>
-    <img src="./images/backend.png" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo.png" alt="">
+            <p class="hero__text">
+                Conheça mais sobre a grande série "hacker" <b>Mr. Robot</b>
+            </p>
+        </div>
+    </header>
+    <section class="event event--elliot">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Conheça o protagonista</h2>
+                <p class="event__details__description">
+                    Elliot trabalha como engenheiro de segurança cibernética durante o dia, mas à noite se transforma em um vigilante hacker que busca expor a verdade e desmascarar as elites corruptas.
+                </p>
+            </div>
+            <img class="event__image" src="images/elliot.jpg" alt="Elliot d Mr Robot">
+        </div>
+    </section>
+    <section class="event event--mrRobot event--image-left">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Conheça o enredo</h2>
+                <p class="event__details__description">
+                    Mr. Robot é uma série de televisão que mergulha profundamente na mente perturbada e complexa de Elliot Alderson, um hacker habilidoso e socialmente recluso que sofre de transtornos mentais. A série explora temas de alienação, identidade, poder e controle em uma sociedade moderna dominada por tecnologia e corrupção.
+                </p>
+            </div>
+            <img class="event__image" src="images/mask.jpg" alt="Elliot de Mr Robot">
+        </div>
+    </section>
+    <section class="event event--tech">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Tecnologia</h2>
+                <p class="event__details__description">
+                    A série tece duras críticas as grandes empresas da área da tecnologia, e ao mesmo tempo aborda temas como o hacking de maneira precisa e factual.
+                </p>
+            </div>
+            <img class="event__image" src="images/glitch.jpg" alt="Glitching Mr Robot Art">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./images/logo.png" alt="Logo prime video">
+        </div>
+        </footer>
     <script src="scripts/main.js"></script>
 </body>
 </html>
