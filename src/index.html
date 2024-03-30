@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -19,8 +19,8 @@
             </p>
         </div>
     </header>
-    <section class="event event--elliot">
-        <div class="container">
+    <section class="event event--elliot" >
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Conheça o protagonista</h2>
                 <p class="event__details__description">
@@ -31,7 +31,7 @@
         </div>
     </section>
     <section class="event event--mrRobot event--image-left">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="event__details">
                 <h2 class="event__details__title">Conheça o enredo</h2>
                 <p class="event__details__description">
@@ -42,7 +42,7 @@
         </div>
     </section>
     <section class="event event--tech">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Tecnologia</h2>
                 <p class="event__details__description">
@@ -54,10 +54,12 @@
     </section>
 
     <footer class="footer">
-        <div class="footer__container">
+        <div class="footer__container" >
             <img class="footer__logo" src="./images/logo.png" alt="Logo prime video">
         </div>
         </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
